@@ -1,11 +1,11 @@
-About r-hrw
-===========
+About r-hrw-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-hrw-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=HRW
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-hrw-feedstock/blob/main/LICENSE.txt)
 
 Summary: The book "Semiparametric Regression with R" by J. Harezlak, D. Ruppert & M.P. Wand (2018, Springer; ISBN: 978-1-4939-8851-8) makes use of datasets and scripts to explain semiparametric regression concepts. Each of the book's scripts are contained in this package as well as datasets that are not within other R packages. Functions that aid semiparametric regression analysis are also included.
 
