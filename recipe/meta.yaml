@@ -1,4 +1,4 @@
-{% set version = '1.0-5' %}
+{% set version = "1.0-6" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/HRW_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/HRW/HRW_{{ version }}.tar.gz
-  sha256: 132c992e29338e8e20d2ffe840a5b131f854f3b447d4c8b3736132464049d021
+  sha256: b1ec47bf381a68a6ddd39c2917406a9364d4b1f381a608eba7075b24fe0fadcd
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -37,11 +37,8 @@ test:
 about:
   home: https://CRAN.R-project.org/package=HRW
   license: GPL-2.0-or-later
-  summary: 'The book "Semiparametric Regression with R" by J. Harezlak, D. Ruppert & M.P. Wand
-    (2018, Springer; ISBN: 978-1-4939-8851-8) makes use of datasets and scripts to explain
-    semiparametric regression concepts. Each of the book''s scripts are contained in
-    this package as well as datasets that are not within other R packages. Functions
-    that aid semiparametric regression analysis are also included.'
+  summary: 'The book "Semiparametric Regression with R" by J. Harezlak, D. Ruppert & M.P. Wand (2018, Springer; ISBN: 978-1-4939-8851-8) makes use of datasets and scripts to explain semiparametric regression concepts. Each of the book''s scripts are contained in this package as well as datasets that are not within other
+    R packages. Functions that aid semiparametric regression analysis are also included.'
   license_family: GPL2
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
