@@ -17,6 +17,7 @@ build:
   rpaths:
     - lib/R/lib/
     - lib/
+  skip: true  # [r_base < 4.5]
 
 requirements:
   build:
